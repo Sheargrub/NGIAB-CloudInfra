@@ -1,6 +1,6 @@
 ---
 name: Case Studies Request Form
-about: CIROH consortium members and partners are invited to request access to the research cloud (AWS, Google Cloud) using this form. This form must be submitted by PI of the project.
+about: PI leading CIROH projects may use this form to request cloud computing resources (AWS, Google Cloud, CIROH-2i2c JupyterHub). Access is available to all consortium members and partners.
 title: ''
 labels: infrastructure
 assignees: ''
