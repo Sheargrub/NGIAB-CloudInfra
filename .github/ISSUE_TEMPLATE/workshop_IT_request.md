@@ -110,7 +110,5 @@ Working Group 1/2/3/4 (select one):
 ---
 
 ### Resource Information Links:
-- AWS: [CIROH AWS Account](https://docs.ciroh.org/docs/services/cloudservices/aws/)
-- Google Cloud: [CIROH Google Account](https://docs.ciroh.org/docs/services/cloudservices/google%20cloud/)
 - CIROH-2i2c JupyterHub: [JupyterHub Documentation](https://docs.ciroh.org/docs/services/cloudservices/jupyterhub/)
 - NSF ACCESS: [ACCESS Resource Allocations](https://allocations.access-ci.org/resources)
