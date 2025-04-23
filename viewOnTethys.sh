@@ -170,7 +170,12 @@ _get_filename() {
 
 #create the docker network to communicate between tethys and geoserver
 _create_tethys_docker_network(){
-    _execute_command docker network create -d bridge tethys-network > /dev/null 2>&1
+    network_result=$(_execute_command docker network create -d bridge tethys-network 2>&1)
+    if grep -i "Error" <<< "$network_result"; then
+        echo -e "${BRed}Error while attempting to create Docker network. (Is Docker running?)${Color_Off}"
+        _tear_down
+        exit 1
+    fi
 }
 
 _check_for_existing_tethys_image() {
